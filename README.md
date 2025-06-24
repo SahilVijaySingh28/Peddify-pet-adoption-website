@@ -1,5 +1,7 @@
 # Pet Adoption Website
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-brightgreen?style=for-the-badge&logo=vercel)](https://peddify-pet-adoption-website.vercel.app)
+
 A modern, full-featured web application for pet adoption, built with React, Material UI, and Recharts. This project demonstrates advanced UI/UX, admin and user flows, analytics, and a beautiful, responsive design.
 
 ---
@@ -103,7 +105,8 @@ This project was created to provide a seamless, engaging experience for users lo
    - **Build Command:** `npm run build`
    - **Output Directory:** `build`
 5. Click **"Deploy"**.
-6. After a minute, your site will be live at a `vercel.app` URL (e.g., `https://peddify-pet-adoption-website.vercel.app`).
+6. After a minute, your site will be live at a `vercel.app` URL:
+   - **Live Site:** [https://peddify-pet-adoption-website.vercel.app](https://peddify-pet-adoption-website.vercel.app)
 7. Every push to your GitHub repo will auto-deploy new changes.
 
 ## Folder Structure
