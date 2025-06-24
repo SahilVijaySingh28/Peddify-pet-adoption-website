@@ -135,4 +135,12 @@ pet-adoption-website/
 
 ---
 
+## Author & Contact
+
+- **GitHub:** [SahilVijaySingh28](https://github.com/SahilVijaySingh28)
+- **Email:** sahilvijaysingh15@gmail.com
+- **Instagram:** [@btwitxsahil](https://instagram.com/btwitxsahil)
+
+---
+
 **Enjoy using and building on the Pet Adoption Website!**
