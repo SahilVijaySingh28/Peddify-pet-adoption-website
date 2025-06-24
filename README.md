@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# Pet Adoption Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, full-featured web application for pet adoption, built with React, Material UI, and Recharts. This project demonstrates advanced UI/UX, admin and user flows, analytics, and a beautiful, responsive design.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Development Process](#development-process)
+- [Setup & Installation](#setup--installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Credits](#credits)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Overview
+This project was created to provide a seamless, engaging experience for users looking to adopt pets and for admins managing adoption requests. It features:
+- Advanced search and filtering for pets
+- User authentication and profiles
+- Admin dashboard with analytics
+- Favorites, notifications, and more
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+### User Side
+- **Browse & Search Pets:** Filter by type, breed, size, and more with a modern UI.
+- **Pet Details:** View detailed info, images, and adoption status.
+- **Adoption Requests:** Request to adopt, track status, and see confirmation.
+- **Favorites:** Save favorite pets for quick access.
+- **Profile Page:** Edit info, upload avatar, view adoption history.
+- **Dark Mode:** Per-page, beautiful dark mode with gradients and custom backgrounds.
+- **Mobile Friendly:** Responsive layouts, mobile nav drawer, and touch-friendly controls.
 
-### `npm test`
+### Admin Side
+- **Admin Dashboard:** Review, approve, reject, or remove adoption requests.
+- **Analytics:** See total pets, adoptions, pending requests, users, adoptions over time, request status, and most recently adopted breed.
+- **Restore Pets:** Reset adoption status for all pets.
+- **Remove Requests:** Clean up or manage adoption requests.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### UI/UX
+- **Modern Navigation:** Hide-on-scroll nav bar, tooltips, icons, and glowing effects.
+- **Notifications:** Interactive bell with notification count.
+- **Accessibility:** Tooltips, clear focus states, and keyboard navigation.
 
-### `npm run build`
+## Tech Stack
+- **Frontend:** React 19, Material UI, Recharts, Framer Motion
+- **Routing:** React Router DOM
+- **State:** LocalStorage (for demo), React Context
+- **Testing:** React Testing Library, Jest
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Development Process
+1. **Bootstrapped with Create React App.**
+2. **Initial Features:** Pet browsing, adoption flow, admin approval, and user authentication.
+3. **UI/UX Enhancements:**
+   - Per-page dark mode, gradients, and custom backgrounds
+   - Modern navigation bar with hide/show on scroll
+   - Mobile navigation drawer
+   - Tooltips and interactive icons
+4. **Advanced Search:**
+   - Collapsible filter panel, multi-select, filter chips, and responsive layout
+5. **Profile Page Overhaul:**
+   - Avatar upload, editable info, animated adoption history, and modern card design
+6. **Admin Analytics:**
+   - Stats cards, charts (adoptions over time, request status, most recently adopted breed)
+7. **Continuous Feedback:**
+   - Iterative improvements based on user feedback for spacing, overflow, and visual polish
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Setup & Installation
+1. **Clone the repository:**
+   ```bash
+   git clone <repo-url>
+   cd Pet Addoption Website/pet-adoption-website
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
+4. **Open in your browser:**
+   Visit [http://localhost:3000](http://localhost:3000)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
+- **Admin Login:** Use `admin@petadopt.com` to access the admin dashboard.
+- **User Registration:** Sign up as a new user to adopt pets, save favorites, and manage your profile.
+- **Adoption Flow:**
+  1. Browse pets and request adoption.
+  2. Admin reviews and approves/rejects requests.
+  3. Users see status updates and confirmation.
 
-### `npm run eject`
+## Folder Structure
+```
+pet-adoption-website/
+  src/
+    components/      # Reusable UI components (Footer, NotificationsBell, etc.)
+    data/            # Static data (pets.js)
+    images/          # App images and logos
+    pages/           # Main app pages (Home, Pets, Adopt, Auth, Profile, AdminDashboard, etc.)
+    App.js           # Main app component
+    index.js         # Entry point
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Credits
+- **UI Library:** [Material UI](https://mui.com/)
+- **Charts:** [Recharts](https://recharts.org/)
+- **Icons:** [Material Icons](https://mui.com/components/material-icons/)
+- **Starter:** [Create React App](https://create-react-app.dev/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Extend or Contribute
+- Fork the repo and submit a pull request for new features (pet stories, testimonials, push notifications, etc.)
+- For questions or suggestions, open an issue.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Enjoy using and building on the Pet Adoption Website!**
