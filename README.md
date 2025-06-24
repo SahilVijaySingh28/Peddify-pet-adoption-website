@@ -11,6 +11,7 @@ A modern, full-featured web application for pet adoption, built with React, Mate
 - [Development Process](#development-process)
 - [Setup & Installation](#setup--installation)
 - [Usage](#usage)
+- [Deployment](#deployment)
 - [Folder Structure](#folder-structure)
 - [Credits](#credits)
 
@@ -91,6 +92,19 @@ This project was created to provide a seamless, engaging experience for users lo
   1. Browse pets and request adoption.
   2. Admin reviews and approves/rejects requests.
   3. Users see status updates and confirmation.
+
+## Deployment
+
+### Deploying to Vercel (Recommended)
+1. **Push your code to GitHub.**
+2. Go to [https://vercel.com/](https://vercel.com/) and sign up/log in with your GitHub account.
+3. Click **"New Project"** and import your `Peddify-pet-adoption-website` repository.
+4. Accept the defaults (Vercel auto-detects Create React App):
+   - **Build Command:** `npm run build`
+   - **Output Directory:** `build`
+5. Click **"Deploy"**.
+6. After a minute, your site will be live at a `vercel.app` URL (e.g., `https://peddify-pet-adoption-website.vercel.app`).
+7. Every push to your GitHub repo will auto-deploy new changes.
 
 ## Folder Structure
 ```
